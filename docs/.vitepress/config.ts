@@ -1,4 +1,4 @@
-import "./tailwind.css";
+// import "./tailwind.css";
 
 module.exports = {
   title: "Caique de Camargo",
@@ -8,6 +8,21 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },
+      { text: "Playground", link: "/playground/" },
     ],
+
+    sidebar: {
+      "/blog/": [
+        {
+          text: "Outra Página",
+          children: [
+            {
+              text: "Outra página",
+              link: "/blog/outrapagina/",
+            },
+          ],
+        },
+      ],
+    },
   },
 };
