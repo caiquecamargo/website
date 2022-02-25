@@ -9,9 +9,9 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "/@theme/*": ["docs/.vitepress/theme/*"]
+      "@components/*": ["docs/components/*"]
     }
   },
-  "include": ["env.d.ts", "docs/**/*.{js,ts,vue}", ".vitepress/**/*"],
+  "include": ["env.d.ts", "docs/**/*.ts", "docs/components/**/*.vue"],
   "exclude": ["node_modules"]
 }

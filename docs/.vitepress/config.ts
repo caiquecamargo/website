@@ -1,6 +1,6 @@
-// import "./tailwind.css";
+import { defineConfig } from "vitepress";
 
-module.exports = {
+export default defineConfig({
   title: "Caique de Camargo",
   description: "Um blog sobre tecnologia, programação e vida pessoal.",
 
@@ -25,4 +25,4 @@ module.exports = {
       ],
     },
   },
-};
+});
