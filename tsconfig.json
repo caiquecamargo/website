@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "/@theme/*": ["docs/.vitepress/theme/*"]
+    }
+  },
+  "include": ["env.d.ts", "docs/**/*.{js,ts,vue}", ".vitepress/**/*"],
+  "exclude": ["node_modules"]
+}
